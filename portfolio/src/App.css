@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,54 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+   margin: 0;
+}
+
+.Home {
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+}
+
+
+.home-left-container {
+  background-color: gray;
+	height: 100vh;
+ 
+}
+
+.home-right-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-right-container > h1 {
+  font-size: 72pt;
+  margin-bottom: -40px;
+}
+
+.home-right-container > h2 {
+  font-size: 24pt;
+  margin-left: -15px;
+}
+
+.more-details-btn {
+  background-color: 0;
+  border: 0;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  transition: 0.5s;
+}
+
+.more-details-btn:hover {
+  background-color: green;
+  border: 0;
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  transition: 0.5s
 }

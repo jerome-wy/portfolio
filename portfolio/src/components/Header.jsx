@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function About () {
-    return <div className='About'>
-        About
+export default function Header () {
+    return <div className='Header'>
+        Header
     </div>
 }
