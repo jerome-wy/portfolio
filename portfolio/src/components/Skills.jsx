@@ -1,19 +1,72 @@
-import React from 'react';
+import React from "react";
 
 export default function Skills() {
-	return (
-		<div className='Skills'>
-			<h1>Soft Skills</h1>
-			Project Management, Strategic planning & Implementation, Risk Management,
-			Effective & Detailed Communicator
-			<h1>Technologies</h1>
-			HTML5, CSS3, JavaScript, React, React Libraries (React Icons, Toastify,
-			Recharts) Vue, Redux, Python, PostgreSQL, MongoDB, Mongoose, Node,
-			Nodemon, Django, REST APIs, Sequelize
-			<h1>Applications</h1>
-			Adobe Photoshop, Adobe XD, Microsoft Office Suite (Word, Excel, OneNote,
-			Planner, PowerPoint, SharePoint), Zoom, Whimsical, Trello, Cerner, Epic,
-			Salesforce, SAP, Qlikview
-		</div>
-	);
+  return (
+    <div className="Skills">
+      <div className="soft-skills-column">
+        <h1>Soft Skills</h1>
+        <ul>
+          <li>Project Management</li>
+          <li>Strategic planning & Implementation</li>
+          <li>Effective & Detailed Communicator</li>
+          <li>Risk Management</li>
+          <li>Stakeholder Management</li>
+        </ul>
+      </div>
+
+      <div className="front-end-column">
+        <h1>Front-End</h1>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>React Libraries: React Icons, Recharts, Toastify</li>
+          <li>Vue</li>
+        </ul>
+      </div>
+
+      <div className="back-end-column">
+        <h1>Back-End</h1>
+        <ul>
+          <li>Python</li>
+          <li>Django</li>
+          <li>Django Rest Framework</li>
+          <li>PostgreSQL</li>
+          <li>MongoDB</li>
+          <li>Mongoose</li>
+          <li>Express</li>
+          <li>Sequelize</li>
+          <li>REST APIs</li>
+          <li>Node</li>
+          <li>Nodemon</li>
+        </ul>
+      </div>
+
+      <div className="applications-column">
+        <h1>Applications</h1>
+        <ul>
+          <li>Adobe Photoshop</li>
+          <li>Adobe XD</li>
+          <li>Adobe Illustrator</li>
+          <li>Adobe InDesign</li>
+          <li>Microsoft Word</li>
+          <li>Microsoft Excel</li>
+          <li>Microsoft OneNote (my favorite!)</li>
+          <li>Microsoft Planner</li>
+          <li>Microsoft SharePoint</li>
+          <li>Microsoft PowerPoint</li>
+          <li>Insomnia</li>
+          <li>MongoDB Compass</li>
+          <li>Zoom</li>
+          <li>Whimsical</li>
+          <li>Trello</li>
+          <li>Salesforce</li>
+          <li>SAP</li>
+          <li>Qlikview</li>
+        </ul>
+      </div>
+    </div>
+  );
 }
