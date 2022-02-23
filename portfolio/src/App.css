@@ -164,14 +164,86 @@ body {
 }
 
 .Projects {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 2em;
-	width: 75%;
-	background: rgba(75, 94, 116, 0.1);
+	display: flex;
+	flex-wrap: wrap;
+	/* grid-template-columns: 1fr 1fr; */
+	/* grid-gap: 2em; */
+	width: 75vw;
 	padding: 1em;
 	border-radius: 1em;
 	margin: 0 auto;
+}
+
+.project-item-1-container,
+.project-item-2-container,
+.project-item-3-container,
+.project-item-4-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: solid 1px lightgray;
+	border-radius: 10px;
+	margin-top: 2em;
+	padding: 1em;
+}
+
+.project-item-1 > h1 {
+	font-size: 24pt;
+}
+
+.project-item-1 > h2 {
+	font-size: 14pt;
+	font-weight: normal;
+}
+
+.project-item-2 > h1 {
+	font-size: 24pt;
+}
+
+.project-item-2 > h2 {
+	font-size: 14pt;
+	font-weight: normal;
+}
+
+.project-item-3 > h1 {
+	font-size: 24pt;
+}
+
+.project-item-3 > h2 {
+	font-size: 14pt;
+	font-weight: normal;
+}
+
+.project-item-4 > h1 {
+	font-size: 24pt;
+}
+
+.project-item-4 > h2 {
+	font-size: 14pt;
+	font-weight: normal;
+}
+
+.project-item-1 > img {
+	width: 300px;
+	height: 160px;
+	margin: 2px;
+}
+
+.project-item-2 > img {
+	width: 300px;
+	height: 160px;
+	margin: 2px;
+}
+
+.project-item-3 > img {
+	width: 300px;
+	height: 160px;
+	margin: 2px;
+}
+
+.project-item-4 > img {
+	width: 300px;
+	height: 160px;
+	margin: 2px;
 }
 
 .Skills {
