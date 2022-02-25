@@ -12,21 +12,25 @@ function App() {
 	const [header, toggleHeader] = useState(true);
 	return (
 		<div className='App'>
-			{!header ? <Header /> : ''}
-
+			{/* {!header ? <Header /> : ''} */}
 			<Switch>
-				<Route
+				{/* <Route
 					exact
 					path='/'
 					component={(props) => (
 						<Home {...props} header={header} toggleHeader={toggleHeader} />
 					)}
-				/>
-				<Route path='/about' component={About} />
+				/> */}
+				{/* <Route path='/about' component={About} />
 				<Route path='/experience' component={Experience} />
 				<Route path='/projects' component={Projects} />
-				<Route path='/skills' component={Skills} />
+				<Route path='/skills' component={Skills} /> */}
 			</Switch>
+			<Header />
+			<About />
+			<Projects />
+			<Skills />
+			<Experience />
 		</div>
 	);
 }
