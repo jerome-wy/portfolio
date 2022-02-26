@@ -327,6 +327,7 @@ h1 {
 		font-family: 'Gurajada', serif;
 		font-size: 20pt;
 		text-decoration: none;
+		color: black;
 	}
 
 	a:hover {
@@ -341,6 +342,7 @@ h1 {
 
 	.App {
 		min-width: 414px;
+		overflow-x: hidden;
 	}
 
 	img {
@@ -360,13 +362,11 @@ h1 {
 	}
 
 	.mobile-header > ul {
-		list-style-type: none;
 		padding: 0;
 	}
+
 	.mobile-header > ul > li {
 		display: inline;
-		list-style-type: none;
-		margin: 0em 0.1em;
 	}
 
 	.About {
