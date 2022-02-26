@@ -311,7 +311,30 @@ h1 {
 @media all and (min-width: 414px) {
 	body {
 		overflow-x: hidden;
+		font-size: 16pt;
+		line-height: 1.7;
 	}
+
+	a {
+		font-weight: bold;
+		/* letter-spacing: -2px; */
+		margin: 0.25em;
+		cursor: pointer;
+		font-family: 'Gurajada', serif;
+		font-size: 24pt;
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: underline;
+		color: #4b5e74;
+	}
+
+	a:active,
+	a:visited {
+		color: #4b5e74;
+	}
+
 	.App {
 		min-width: 414px;
 	}
@@ -341,14 +364,6 @@ h1 {
 		margin: 0em 0.1em;
 	}
 
-	.header-btn,
-	.resume-btn {
-		background-color: transparent;
-		border: 0;
-		font-family: 'Gurajada', serif;
-		font-size: 20pt;
-	}
-
 	.About {
 		display: flex;
 		flex-direction: column;
@@ -361,6 +376,7 @@ h1 {
 		height: 200px;
 		width: 200px;
 		border-radius: 100px;
+		margin: 2em;
 	}
 
 	.About > content > p > span {
@@ -389,10 +405,9 @@ h1 {
 	.Experience {
 		display: flex;
 		flex-wrap: wrap;
-		/* flex-direction: column; */
 		padding: 2em;
-
 		align-items: center;
+		background-color: #f3f3f3;
 	}
 
 	.experience-item-title {
@@ -415,6 +430,28 @@ h1 {
 		text-align: left;
 		margin: 0;
 		letter-spacing: -2px;
+	}
+
+	.experience-item-list > h2 {
+		font-size: 24pt;
+		line-height: 1.2;
+		color: #4b5e74;
+		text-align: left;
+		margin-top: 2em;
+		letter-spacing: -2px;
+	}
+
+	.experience-item-list > h3 {
+		font-size: 18pt;
+		line-height: 1.2;
+		color: #7e9ec3;
+		text-align: left;
+		margin-top: -20px;
+		letter-spacing: -2px;
+	}
+
+	.animated .slideInUp > ul > li {
+		padding: 0;
 	}
 
 	.About > content > h1 {

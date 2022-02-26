@@ -3,7 +3,7 @@ import React from 'react';
 export default function Skills() {
 	return (
 		<div className='Skills' id='skills'>
-			{/* <h1>skills</h1> */}
+			<h1>skills</h1>
 			<div className='soft-skills-column'>
 				<h1>Soft Skills</h1>
 				<ul>
@@ -59,9 +59,6 @@ export default function Skills() {
 						<li>Microsoft OneNote (my favorite!)</li>
 						<li>Microsoft Planner</li>
 						<li>Microsoft SharePoint</li>
-					</ul>
-
-					<ul>
 						<li>Microsoft PowerPoint</li>
 						<li>Insomnia</li>
 						<li>MongoDB Compass</li>

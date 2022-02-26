@@ -10,6 +10,7 @@ export default function Experience() {
 
 	return (
 		<div className='Experience' id='experience'>
+			<h1>experience</h1>
 			<div className='experience-item'>
 				<div
 					className='experience-item-title'
@@ -18,7 +19,6 @@ export default function Experience() {
 					<h3>General Assembly</h3>
 				</div>
 			</div>
-
 			<div
 				className='experience-item'
 				onClick={() => toggleExperience2(!experience2)}>
@@ -92,7 +92,6 @@ export default function Experience() {
 					</Animated>
 				)}
 			</div>
-
 			<div
 				className='experience-item'
 				onClick={() => toggleExperience3(!experience3)}>
@@ -158,7 +157,6 @@ export default function Experience() {
 					</Animated>
 				)}
 			</div>
-
 			<div
 				className='experience-item'
 				onClick={() => toggleExperience4(!experience4)}>
