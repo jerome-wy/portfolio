@@ -406,11 +406,17 @@ h1 {
 	}
 
 	.Experience {
+		/* display: flex;
+		flex-direction: column;
+		padding: 2em; */
 		display: flex;
 		flex-direction: column;
-		padding: 2em;
 		align-items: center;
+		align-content: center;
+		justify-content: center;
+		justify-items: center;
 		background-color: #f3f3f3;
+		margin: 0 auto;
 	}
 
 	.experience-item-title {
@@ -422,6 +428,13 @@ h1 {
 		margin: 1em;
 		height: 300px;
 		width: 300px;
+		cursor: pointer;
+		transition: 0.5s;
+	}
+
+	.experience-item-title:hover {
+		background-color: #a9c3e0;
+		transition: 0.5s;
 	}
 
 	h1 {
@@ -435,12 +448,24 @@ h1 {
 		letter-spacing: -2px;
 	}
 
+	.experience-item-list {
+		max-width: 60ch;
+		padding: 1em;
+		transition: 0.5s;
+	}
+
+	.experience-item-list:hover {
+		background-color: rgb(219, 217, 217);
+		transition: 0.5s;
+		cursor: pointer;
+		box-shadow: 1em 1em lightgray;
+	}
+
 	.experience-item-list > h2 {
 		font-size: 24pt;
 		line-height: 1.2;
 		color: #4b5e74;
 		text-align: left;
-		margin-top: 2em;
 		letter-spacing: -2px;
 	}
 

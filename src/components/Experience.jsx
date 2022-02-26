@@ -92,6 +92,7 @@ export default function Experience() {
 					</Animated>
 				)}
 			</div>
+
 			<div
 				className='experience-item'
 				onClick={() => toggleExperience3(!experience3)}>
@@ -157,6 +158,7 @@ export default function Experience() {
 					</Animated>
 				)}
 			</div>
+
 			<div
 				className='experience-item'
 				onClick={() => toggleExperience4(!experience4)}>
