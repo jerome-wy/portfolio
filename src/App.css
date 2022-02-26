@@ -315,13 +315,17 @@ h1 {
 		line-height: 1.7;
 	}
 
+	/* p {
+		max-width: 60ch;
+	} */
+
 	a {
 		font-weight: bold;
 		/* letter-spacing: -2px; */
 		margin: 0.25em;
 		cursor: pointer;
 		font-family: 'Gurajada', serif;
-		font-size: 24pt;
+		font-size: 20pt;
 		text-decoration: none;
 	}
 
@@ -369,7 +373,6 @@ h1 {
 		flex-direction: column;
 		align-items: center;
 		padding: 2em;
-		height: 100vh;
 	}
 
 	.About > img {
@@ -404,7 +407,7 @@ h1 {
 
 	.Experience {
 		display: flex;
-		flex-wrap: wrap;
+		flex-direction: column;
 		padding: 2em;
 		align-items: center;
 		background-color: #f3f3f3;
@@ -457,6 +460,14 @@ h1 {
 	.About > content > h1 {
 		background-color: white;
 		padding: 0;
+		text-align: center;
+	}
+
+	.section-title {
+		text-transform: uppercase;
+		margin: 1em 0em;
+		background-color: transparent;
+		border-bottom: solid 5px #4b5e74;
 		text-align: center;
 	}
 }

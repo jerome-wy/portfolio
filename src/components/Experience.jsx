@@ -10,7 +10,7 @@ export default function Experience() {
 
 	return (
 		<div className='Experience' id='experience'>
-			<h1>experience</h1>
+			<h1 className='section-title'>experience</h1>
 			<div className='experience-item'>
 				<div
 					className='experience-item-title'

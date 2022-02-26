@@ -3,7 +3,7 @@ import React from 'react';
 export default function Skills() {
 	return (
 		<div className='Skills' id='skills'>
-			<h1>skills</h1>
+			<h1 className='section-title'>skills</h1>
 			<div className='soft-skills-column'>
 				<h1>Soft Skills</h1>
 				<ul>
