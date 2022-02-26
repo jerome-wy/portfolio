@@ -23,10 +23,17 @@ export default function Experience() {
 				className='experience-item'
 				onClick={() => toggleExperience2(!experience2)}>
 				{!experience2 ? (
-					<div className='experience-item-title'>
-						<h2>Project Manager</h2>
-						<h3>BD (Becton Dickinson and Company)</h3>
-					</div>
+					<Animated
+						animationIn='slideInDown'
+						animationOut='fadeOut'
+						animationInDelay={1}
+						animationOutDelay={2}
+						isVisible={true}>
+						<div className='experience-item-title'>
+							<h2>Project Manager</h2>
+							<h3>BD (Becton Dickinson and Company)</h3>
+						</div>
+					</Animated>
 				) : (
 					<Animated
 						animationIn='slideInDown'
@@ -97,10 +104,17 @@ export default function Experience() {
 				className='experience-item'
 				onClick={() => toggleExperience3(!experience3)}>
 				{!experience3 ? (
-					<div className='experience-item-title'>
-						<h2>Product Implementation Analyst</h2>
-						<h3>BD (Becton Dickinson and Company)</h3>
-					</div>
+					<Animated
+						animationIn='slideInDown'
+						animationOut='fadeOut'
+						animationInDelay={1}
+						animationOutDelay={2}
+						isVisible={true}>
+						<div className='experience-item-title'>
+							<h2>Product Implementation Analyst</h2>
+							<h3>BD (Becton Dickinson and Company)</h3>
+						</div>
+					</Animated>
 				) : (
 					<Animated
 						animationIn='slideInDown'
@@ -163,10 +177,17 @@ export default function Experience() {
 				className='experience-item'
 				onClick={() => toggleExperience4(!experience4)}>
 				{!experience4 ? (
-					<div className='experience-item-title'>
-						<h2>Clinical Systems Analyst</h2>
-						<h3>Keck Medical Center of USC</h3>
-					</div>
+					<Animated
+						animationIn='slideInDown'
+						animationOut='fadeOut'
+						animationInDelay={1}
+						animationOutDelay={2}
+						isVisible={true}>
+						<div className='experience-item-title'>
+							<h2>Clinical Systems Analyst</h2>
+							<h3>Keck Medical Center of USC</h3>
+						</div>
+					</Animated>
 				) : (
 					<Animated
 						animationIn='slideInDown'

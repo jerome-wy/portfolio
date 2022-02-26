@@ -29,6 +29,7 @@ export default function Projects() {
 
 				<div className='project-item-desc'>
 					<h1>NerdFeed</h1>
+					<h4>GitHub | Heroku</h4>
 					<p>
 						This project was created as my second Project for General Assembly's
 						Software Engineering Immersive Porogram
@@ -48,11 +49,11 @@ export default function Projects() {
 			<div className='project-item-2-container'>
 				<div className='project-item-desc'>
 					<h1>Anchr</h1>
+					<h4>GitHub | Heroku</h4>
 					<p>
 						This was a Group Project which I had the pleasure of working with
 						three other full-stack developers on.
 					</p>
-
 					<ul>
 						<li>
 							Full Stack app created using PostgreSQL, Express, React, and Node
@@ -118,6 +119,7 @@ export default function Projects() {
 
 				<div className='project-item-desc'>
 					<h1>Calendr</h1>
+					<h4>GitHub | Heroku</h4>
 					<p>
 						As part of General Assembly's Software Engineering Immersive, my
 						group was tasked with creating a Full Stack application using Vue.js
@@ -140,6 +142,7 @@ export default function Projects() {
 			<div className='project-item-4-container'>
 				<div className='project-item-desc'>
 					<h1>Procrastigamr</h1>
+					<h4>GitHub | Heroku</h4>
 					<p>
 						This project is my capstone project for General Assembly's Software
 						Engineering Immersive Program which used React on the front-end and

@@ -345,6 +345,75 @@ h1 {
 		overflow-x: hidden;
 	}
 
+	.Home {
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.logo-div-container {
+		/* background-color: #a9c3e0; */
+		width: 100vw;
+	}
+
+	.logo-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.logo-title-container {
+		letter-spacing: -2px;
+		font-weight: bold;
+		font-family: 'Roboto', serif;
+		list-style: none;
+		line-height: 1;
+	}
+
+	.down {
+		background-color: #a9c3e0;
+		border: 0;
+		padding: 1em 3em;
+		font-family: 'Roboto';
+		font-weight: bold;
+		font-size: 16pt;
+		transition: 0.7s;
+		margin: 4em 0em;
+		letter-spacing: -2px;
+	}
+
+	.down:hover {
+		background-color: green;
+		transition: 0.7s;
+		padding: 1em 1.5em;
+		border-radius: 2em;
+		color: white;
+		letter-spacing: 4px;
+	}
+
+	.logo {
+		font-size: 150pt;
+		font-weight: bold;
+	}
+
+	.j {
+		transform: rotate(15deg);
+		color: #4b5e74;
+	}
+
+	.w {
+		transform: rotate(30deg);
+		color: #7e9ec3;
+	}
+
+	.title {
+		font-size: 24pt;
+		line-height: 0.9;
+		letter-spacing: -2px;
+	}
+
 	img {
 		width: 300px;
 		height: 300px;
@@ -356,9 +425,10 @@ h1 {
 
 	.mobile-header {
 		display: flex;
-		background-color: #f3f3f3;
+		background-color: lightgray;
 		justify-content: center;
 		width: 100vw;
+		position: sticky;
 	}
 
 	.mobile-header > ul {
@@ -403,21 +473,16 @@ h1 {
 	}
 
 	.Skills {
+		display: flex;
+		flex-direction: column;
 		padding: 2em;
 	}
 
 	.Experience {
-		/* display: flex;
-		flex-direction: column;
-		padding: 2em; */
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		align-content: center;
-		justify-content: center;
-		justify-items: center;
+		padding: 2em;
 		background-color: #f3f3f3;
-		margin: 0 auto;
 	}
 
 	.experience-item-title {

@@ -6,7 +6,7 @@ export default function Header() {
 	const isLinkClicked = false;
 
 	return (
-		<div className='Header'>
+		<div className='Header' id='header'>
 			<div className='desktop-header'>
 				<ul>
 					<li>

@@ -1,27 +1,35 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
+import { Animated } from 'react-animated-css';
 
-export default function Home(props) {
-	const { header, toggleHeader } = props;
-
-	function showHeader() {
-		if (header === true) {
-			toggleHeader(false);
-		}
-	}
-
+export default function Home() {
 	return (
 		<div className='Home'>
-			<div className='home-title'>
-				<h1>jerome wy</h1>
-				<h2>software engineer + full stack developer</h2>
+			<div className='logo-div-container'>
+				<div className='logo-container'>
+					<Animated
+						animationIn='slideInUp'
+						isVisible={true}
+						animationInDuration={1500}>
+						<div className='logo j'>j</div>
+					</Animated>
+
+					<Animated
+						animationIn='slideInDown'
+						isVisible={true}
+						animationInDuration={1500}>
+						<div className='logo w'>w</div>
+					</Animated>
+				</div>
+			</div>
+			<div className='logo-title-container'>
+				<li>software engineer</li>
+				<li>full stack developer</li>
 			</div>
 
-			<div className='home-button'>
-				<Link to='/about'>
-					<button className='more-details-btn' onClick={showHeader}>
-						let's network!
-					</button>
+			<div className='down-container'>
+				<Link to='header' spy={true} smooth={true}>
+					<button className='down'>get to know me!</button>
 				</Link>
 			</div>
 		</div>

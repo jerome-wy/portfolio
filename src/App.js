@@ -26,8 +26,10 @@ function App() {
 				<Route path='/projects' component={Projects} />
 				<Route path='/skills' component={Skills} /> */}
 			</Switch>
+			<Home />
 			<Header />
 			<About />
+
 			<Projects />
 			<Skills />
 			<Experience />
