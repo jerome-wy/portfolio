@@ -308,7 +308,7 @@ h1 {
 	display: none;
 } */
 
-@media all and (min-width: 414px) {
+@media all {
 	body {
 		overflow-x: hidden;
 		font-size: 16pt;
@@ -462,6 +462,7 @@ h1 {
 		justify-content: center;
 		width: 100vw;
 		position: sticky;
+		z-index: 999;
 	}
 
 	.mobile-header > ul {
