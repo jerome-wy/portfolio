@@ -420,12 +420,10 @@ h1 {
 	}
 
 	.down:hover {
-		background-color: green;
+		background-color: #8eb5e2;
 		transition: 0.7s;
-		/* padding: em; */
 		border-radius: 2em;
 		color: white;
-		letter-spacing: 4px;
 	}
 
 	.logo {
@@ -631,10 +629,10 @@ h1 {
 		max-width: 60ch;
 		padding: 1em;
 		transition: 0.5s;
+		margin: 1em;
 	}
 
 	.experience-item-list:hover {
-		background-color: rgb(219, 217, 217);
 		transition: 0.5s;
 		cursor: pointer;
 		box-shadow: 1em 1em lightgray;
@@ -690,10 +688,10 @@ h1 {
 		padding: 1em;
 		margin-bottom: 1em;
 		min-height: 300px;
+		width: 300px;
 	}
 
 	.skills-list:hover {
-		background-color: rgb(219, 217, 217);
 		transition: 0.5s;
 		cursor: pointer;
 		box-shadow: 1em 1em lightgray;

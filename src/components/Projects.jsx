@@ -233,9 +233,7 @@ export default function Projects() {
 				)}
 			</div>
 
-			<div
-				className='project-item-container'
-				onClick={() => toggleProjects4(!projects4)}>
+			<div className='project-item-container'>
 				{!projects4 ? (
 					<Animated
 						animationIn='slideInDown'
@@ -243,7 +241,9 @@ export default function Projects() {
 						animationInDelay={1}
 						animationOutDelay={2}
 						isVisible={true}>
-						<div className='project-item-desc'>
+						<div
+							className='project-item-desc'
+							onClick={() => toggleProjects4(!projects4)}>
 							<h2>procrastigmr</h2>
 						</div>
 					</Animated>
@@ -254,7 +254,9 @@ export default function Projects() {
 						animationInDelay={1}
 						animationOutDelay={2}
 						isVisible={true}>
-						<div className='project-item'>
+						<div
+							className='project-item'
+							onClick={() => toggleProjects4(!projects4)}>
 							<h2>procrastigamr</h2>
 							<h3>Full Stack - PostgreSQL, Python, Django, React</h3>
 							<h4>
