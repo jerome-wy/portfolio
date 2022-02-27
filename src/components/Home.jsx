@@ -22,16 +22,18 @@ export default function Home() {
 					</Animated>
 				</div>
 			</div>
+
 			<div className='logo-title-container'>
+				<h1>jerome wy</h1>
+
 				<li>software engineer</li>
 				<li>full stack developer</li>
-			</div>
-
-			<div className='down-container'>
 				<Link to='header' spy={true} smooth={true}>
 					<button className='down'>get to know me!</button>
 				</Link>
 			</div>
+
+			<div className='down-container'></div>
 		</div>
 	);
 }

@@ -5,31 +5,29 @@ export default function Projects() {
 		<div className='Projects' id='projects'>
 			<h1 className='section-title'>projects</h1>
 
-			<div className='project-item-1-container'>
-				<div className='project-item'>
-					<img
-						src='https://camo.githubusercontent.com/7b35060a783d9d39a3dc7d9f66a3c31db44b7f7eb94dccfe909cc6591d6f985f/68747470733a2f2f692e696d6775722e636f6d2f4f6a72625633432e706e67'
-						alt='screenshot-1'
-					/>
-					<img
-						src='https://camo.githubusercontent.com/7b35060a783d9d39a3dc7d9f66a3c31db44b7f7eb94dccfe909cc6591d6f985f/68747470733a2f2f692e696d6775722e636f6d2f4f6a72625633432e706e67'
-						alt='screenshot-1'
-					/>
-
-					<img
-						src='https://camo.githubusercontent.com/7b35060a783d9d39a3dc7d9f66a3c31db44b7f7eb94dccfe909cc6591d6f985f/68747470733a2f2f692e696d6775722e636f6d2f4f6a72625633432e706e67'
-						alt='screenshot-1'
-					/>
-
-					<img
-						src='https://camo.githubusercontent.com/7b35060a783d9d39a3dc7d9f66a3c31db44b7f7eb94dccfe909cc6591d6f985f/68747470733a2f2f692e696d6775722e636f6d2f4f6a72625633432e706e67'
-						alt='screenshot-1'
-					/>
-				</div>
-
+			<div className='project-item-container'>
 				<div className='project-item-desc'>
 					<h1>NerdFeed</h1>
-					<h4>GitHub | Heroku</h4>
+					<h4>
+						<a
+							href='https://www.github.com/jerome-wy/NerdFeed/'
+							alt='Link to site'>
+							GitHub
+						</a>
+						| <i>App Deployment in progress!</i>
+					</h4>
+
+					<div className='project-item'>
+						<img
+							src='https://camo.githubusercontent.com/7b35060a783d9d39a3dc7d9f66a3c31db44b7f7eb94dccfe909cc6591d6f985f/68747470733a2f2f692e696d6775722e636f6d2f4f6a72625633432e706e67'
+							alt='screenshot-1'
+						/>
+						<img
+							src='https://camo.githubusercontent.com/6938907ac40b15427a7eb0c8bddda8d48221fe46d0af85fcaa988857883e185f/68747470733a2f2f692e696d6775722e636f6d2f4c487a6a6b51612e706e67'
+							alt='screenshot-2'
+						/>
+					</div>
+
 					<p>
 						This project was created as my second Project for General Assembly's
 						Software Engineering Immersive Porogram
@@ -46,10 +44,37 @@ export default function Projects() {
 				</div>
 			</div>
 
-			<div className='project-item-2-container'>
+			<div className='project-item-container'>
 				<div className='project-item-desc'>
 					<h1>Anchr</h1>
-					<h4>GitHub | Heroku</h4>
+					<h4>
+						<a
+							href='https://github.com/narrwep27/full_stack_PERN_anchr'
+							alt='Link to site'>
+							GitHub
+						</a>
+						|
+						<a href='https://anchr-app.herokuapp.com' alt='Link to site'>
+							Heroku
+						</a>
+					</h4>
+
+					<div className='project-item'>
+						<img
+							src='https://camo.githubusercontent.com/9bff2d17f4d8be10c0d60513d30f240441f2d741724b6c052d0384229d88a138/68747470733a2f2f692e696d6775722e636f6d2f4b6c596d666e532e706e67'
+							alt='screenshot-1'
+						/>
+						<img
+							src='https://camo.githubusercontent.com/ddb82c9cf658f490e1ec529adbd4976e10f1f0b816e961507a58ee3c2b59220e/68747470733a2f2f692e696d6775722e636f6d2f514b74644454492e706e67'
+							alt='screenshot-2'
+						/>
+
+						<img
+							src='https://camo.githubusercontent.com/93af335a615b16fc4e8a4bb8fa92ea750b865afea3daa4eaefcbe467688ec67c/68747470733a2f2f692e696d6775722e636f6d2f704d4a5976676f2e706e67'
+							alt='screenshot-3'
+						/>
+					</div>
+
 					<p>
 						This was a Group Project which I had the pleasure of working with
 						three other full-stack developers on.
@@ -72,54 +97,22 @@ export default function Projects() {
 						</li>
 					</ul>
 				</div>
-
-				<div className='project-item'>
-					<img
-						src='https://camo.githubusercontent.com/9bff2d17f4d8be10c0d60513d30f240441f2d741724b6c052d0384229d88a138/68747470733a2f2f692e696d6775722e636f6d2f4b6c596d666e532e706e67'
-						alt='screenshot-1'
-					/>
-					<img
-						src='https://camo.githubusercontent.com/ddb82c9cf658f490e1ec529adbd4976e10f1f0b816e961507a58ee3c2b59220e/68747470733a2f2f692e696d6775722e636f6d2f514b74644454492e706e67'
-						alt='screenshot-2'
-					/>
-
-					<img
-						src='https://camo.githubusercontent.com/93af335a615b16fc4e8a4bb8fa92ea750b865afea3daa4eaefcbe467688ec67c/68747470733a2f2f692e696d6775722e636f6d2f704d4a5976676f2e706e67'
-						alt='screenshot-3'
-					/>
-
-					<img
-						src='https://camo.githubusercontent.com/7b35060a783d9d39a3dc7d9f66a3c31db44b7f7eb94dccfe909cc6591d6f985f/68747470733a2f2f692e696d6775722e636f6d2f4f6a72625633432e706e67'
-						alt='screenshot-1'
-					/>
-				</div>
 			</div>
 
-			<div className='project-item-3-container'>
-				<div className='project-item'>
-					<img
-						src='https://camo.githubusercontent.com/9bff2d17f4d8be10c0d60513d30f240441f2d741724b6c052d0384229d88a138/68747470733a2f2f692e696d6775722e636f6d2f4b6c596d666e532e706e67'
-						alt='screenshot-1'
-					/>
-					<img
-						src='https://camo.githubusercontent.com/ddb82c9cf658f490e1ec529adbd4976e10f1f0b816e961507a58ee3c2b59220e/68747470733a2f2f692e696d6775722e636f6d2f514b74644454492e706e67'
-						alt='screenshot-2'
-					/>
-
-					<img
-						src='https://camo.githubusercontent.com/93af335a615b16fc4e8a4bb8fa92ea750b865afea3daa4eaefcbe467688ec67c/68747470733a2f2f692e696d6775722e636f6d2f704d4a5976676f2e706e67'
-						alt='screenshot-3'
-					/>
-
-					<img
-						src='https://camo.githubusercontent.com/7b35060a783d9d39a3dc7d9f66a3c31db44b7f7eb94dccfe909cc6591d6f985f/68747470733a2f2f692e696d6775722e636f6d2f4f6a72625633432e706e67'
-						alt='screenshot-1'
-					/>
-				</div>
-
+			<div className='project-item-container'>
 				<div className='project-item-desc'>
 					<h1>Calendr</h1>
-					<h4>GitHub | Heroku</h4>
+					<div className='project-item'>
+						<img src='https://i.imgur.com/QvjYot4.png' alt='screenshot-1' />
+					</div>
+					<h4>
+						<a
+							href='https://github.com/domdelorenzo/calendr'
+							alt='Link to site'>
+							GitHub
+						</a>
+						| <i>App deployment pending</i>
+					</h4>
 					<p>
 						As part of General Assembly's Software Engineering Immersive, my
 						group was tasked with creating a Full Stack application using Vue.js
@@ -139,10 +132,27 @@ export default function Projects() {
 				</div>
 			</div>
 
-			<div className='project-item-4-container'>
+			<div className='project-item-container'>
 				<div className='project-item-desc'>
 					<h1>Procrastigamr</h1>
-					<h4>GitHub | Heroku</h4>
+					<h4>
+						<a href='https://github.com/jerome-wy/gamr' alt='Link to site'>
+							GitHub
+						</a>
+						| <i>App deployment pending</i>
+					</h4>
+
+					<div className='project-item'>
+						<img src='https://i.imgur.com/V7fMV0F.png' alt='screenshot-1' />
+						<img src='https://i.imgur.com/67OwfcL.png' alt='screenshot-2' />
+
+						<img src='https://i.imgur.com/BbBNpaT.png' alt='screenshot-3' />
+
+						<img src='https://i.imgur.com/0xlGW2n.png' alt='screenshot-4' />
+						<img src='https://i.imgur.com/KjPziow.png' alt='screenshot-5' />
+						<img src='https://i.imgur.com/4Vf4rMz.png' alt='screenshot-6' />
+					</div>
+
 					<p>
 						This project is my capstone project for General Assembly's Software
 						Engineering Immersive Program which used React on the front-end and
@@ -161,27 +171,6 @@ export default function Projects() {
 							Used CSS Grid and Flexbox for front-end styling and organization
 						</li>
 					</ul>
-				</div>
-
-				<div className='project-item'>
-					<img
-						src='https://camo.githubusercontent.com/9bff2d17f4d8be10c0d60513d30f240441f2d741724b6c052d0384229d88a138/68747470733a2f2f692e696d6775722e636f6d2f4b6c596d666e532e706e67'
-						alt='screenshot-1'
-					/>
-					<img
-						src='https://camo.githubusercontent.com/ddb82c9cf658f490e1ec529adbd4976e10f1f0b816e961507a58ee3c2b59220e/68747470733a2f2f692e696d6775722e636f6d2f514b74644454492e706e67'
-						alt='screenshot-2'
-					/>
-
-					<img
-						src='https://camo.githubusercontent.com/93af335a615b16fc4e8a4bb8fa92ea750b865afea3daa4eaefcbe467688ec67c/68747470733a2f2f692e696d6775722e636f6d2f704d4a5976676f2e706e67'
-						alt='screenshot-3'
-					/>
-
-					<img
-						src='https://camo.githubusercontent.com/7b35060a783d9d39a3dc7d9f66a3c31db44b7f7eb94dccfe909cc6591d6f985f/68747470733a2f2f692e696d6775722e636f6d2f4f6a72625633432e706e67'
-						alt='screenshot-1'
-					/>
 				</div>
 			</div>
 		</div>
