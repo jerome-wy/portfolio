@@ -19,6 +19,23 @@ export default function About() {
 					software engineer/web developer since I was 10 years old coding anime
 					websites and in Nov 2021, I finally decided to go for it!
 				</p>
+
+				<p>
+					On the front-end, I use HTML5, CSS3, Javascript, React, and Vue. I
+					also love using React libraries - like react-burger-menu and
+					react-animated-css I used in this portfolio. On the back-end side, I
+					use Python, Django, MongoDB, Express, Mongoose, and PostgreSQL.
+					Between you and me, I think front-end is much more fun.
+				</p>
+
+				<p>
+					This portfolio is a much prettier and interactive resume. Let me know
+					if you have any questions!
+					<br />
+					<center>
+						<img src='https://i.imgur.com/SUG9IYs.png' alt='logo' />
+					</center>
+				</p>
 			</content>
 		</div>
 	);

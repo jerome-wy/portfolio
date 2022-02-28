@@ -296,7 +296,7 @@ h1 {
 	body {
 		overflow-x: hidden;
 		font-size: 16pt;
-		line-height: 1.7;
+		line-height: 1.6;
 	}
 
 	a {
@@ -308,11 +308,13 @@ h1 {
 		font-size: 20pt;
 		text-decoration: none;
 		color: black;
+		transition: 0.5s;
 	}
 
 	a:hover {
 		text-decoration: underline;
 		color: #4b5e74;
+		transition: 0.5s;
 	}
 
 	a:active,
@@ -376,7 +378,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 	/* General sidebar styles */
 	.bm-menu {
-		background: #4b5e74;
+		background: rgb(255, 255, 255);
+		background: linear-gradient(
+			180deg,
+			rgba(255, 255, 255, 1) 0%,
+			rgba(75, 94, 116, 1) 100%,
+			rgba(126, 158, 195, 1) 100%
+		);
 		padding: 2.5em 1.5em 0;
 		font-size: 1.15em;
 	}
@@ -397,6 +405,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 		display: inline-block;
 	}
 
+	.menu-logo {
+		height: 150px;
+		width: 150px;
+	}
+
 	/* Styling of overlay */
 	.bm-overlay {
 		background: rgba(0, 0, 0, 0.3);
@@ -408,6 +421,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 	.menu-item:hover {
 		color: #a9c3e0;
+	}
+
+	.menu-btn {
+		/* padding: 0em; */
+		/* margin: 20em; */
 	}
 
 	h1 {
@@ -436,14 +454,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
 		font-family: 'Roboto', serif;
 		list-style: none;
 		line-height: 1;
-		/* text-align: center; */
+		text-align: center;
 	}
 
 	.logo-title-container > h1 {
-		border-top: solid 1px lightgray;
+		/* border-top: solid 1px lightgray; */
 		background-color: white;
 		padding-top: 0.5em;
-		padding-left: 0;
 		font-size: 40pt;
 		text-align: left;
 		margin-bottom: 0.25em;
@@ -520,16 +537,23 @@ Note: Beware of modifying this element as it can break the animations - you shou
 		text-transform: uppercase;
 		border-radius: 1em;
 		margin: 1em 0em;
-		width: 200px;
+		width: 150px;
+		height: 50px;
 		padding: 0;
+		transition: 0.5s;
 	}
 
 	.resume-btn:hover {
+		background-color: #a9c3e0;
+		cursor: pointer;
+		transition: 0.5s;
+	}
+
+	.resume-btn > a:hover {
 		color: #4b5e74;
 		opacity: 100%;
 		transition: 0.2s;
-		cursor: pointer;
-		/* background-color: green; */
+		text-decoration: none;
 	}
 
 	.About {
@@ -537,6 +561,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 		flex-direction: column;
 		align-items: center;
 		padding: 2em;
+		height: 100vh;
 	}
 
 	.About > img {
@@ -548,6 +573,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 	.About > content > p {
 		max-width: 60ch;
+	}
+
+	.About > content > p > center > img {
+		height: 25%;
+		width: 25%;
+		margin: 0;
 	}
 
 	.About > content > p > span {

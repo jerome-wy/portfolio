@@ -1,12 +1,18 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import { SiLinkedin, SiGithub } from 'react-icons/si';
-import { scaleDown as Menu } from 'react-burger-menu';
+import { scaleRotate as Menu } from 'react-burger-menu';
 
 export default function Header() {
 	return (
 		<div className='Header' id='header'>
 			<Menu>
+				<img
+					src='https://i.imgur.com/SUG9IYs.png'
+					alt='logo'
+					className='menu-logo'
+				/>
+
 				<li>
 					<Link to='about' spy={true} smooth={true} className='menu-item'>
 						about
@@ -30,6 +36,7 @@ export default function Header() {
 						experience
 					</Link>
 				</li>
+
 				<br />
 
 				<button className='resume-btn'>

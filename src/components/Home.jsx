@@ -11,14 +11,15 @@ export default function Home() {
 						animationIn='slideInUp'
 						isVisible={true}
 						animationInDuration={1500}>
-						<div className='logo j'>j</div>
+						{/* <div className='logo j'>j</div> */}
+						<img src='https://i.imgur.com/SUG9IYs.png' alt='logo' />
 					</Animated>
 
 					<Animated
 						animationIn='slideInDown'
 						isVisible={true}
 						animationInDuration={1500}>
-						<div className='logo w'>w</div>
+						{/* <div className='logo w'>w</div> */}
 					</Animated>
 				</div>
 			</div>
@@ -29,7 +30,7 @@ export default function Home() {
 				<li>software engineer</li>
 				<li>full stack developer</li>
 				<Link to='about' spy={true} smooth={true}>
-					<button className='down'>get to know me!</button>
+					<button className='down'>nice to meet you!</button>
 				</Link>
 			</div>
 
