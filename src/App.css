@@ -609,7 +609,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 	}
 
 	.project-item {
-		max-width: 60ch;
+		max-width: 70ch;
 		padding: 1em;
 		margin-bottom: 1em;
 		min-height: 300px;
@@ -648,10 +648,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 		text-align: left;
 		letter-spacing: -2px;
 		text-transform: capitalize;
-	}
-
-	.project-item {
-		max-width: 60ch;
 	}
 
 	.project-item > h4 > a {
@@ -776,11 +772,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 	}
 
 	.skills-list {
+		width: 60ch;
 		max-width: 60ch;
 		padding: 1em;
 		margin-bottom: 1em;
 		min-height: 300px;
-		width: 300px;
 	}
 
 	.skills-list:hover {
