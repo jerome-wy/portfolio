@@ -20,7 +20,6 @@ export default function Experience() {
 						className='experience-item-title'
 						onClick={() => toggleExperience1(!experience1)}>
 						<img src='https://i.imgur.com/fpM6doD.png' />
-
 						<h2>Software Engineering Immersive Fellow</h2>
 						<h3>General Assembly</h3>
 						<h4>2021 to 2022</h4>
@@ -40,7 +39,9 @@ export default function Experience() {
 							<div className='experience-item-title'>
 								<img src='https://i.imgur.com/OzCjP78.png' />
 
-								<h2>Project Manager</h2>
+								<h2>
+									Project Manager <br /> // software upgrades
+								</h2>
 								<h3>BD (Becton Dickinson and Company)</h3>
 								<h4>2018 to 2021</h4>
 							</div>
