@@ -605,7 +605,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 	img {
 		height: 200px;
 		width: 300px;
-		margin: 1em;
 	}
 
 	.project-item {
@@ -710,9 +709,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
 		text-transform: lowercase;
 		line-height: 1;
 		padding: 0.5em;
-		margin: 1em;
-		height: 400px;
-		width: 400px;
+		margin-bottom: 2em;
+		margin-right: 2em;
+		height: 500px;
+		width: 350px;
 		cursor: pointer;
 		transition: 0.5s;
 		display: grid;
