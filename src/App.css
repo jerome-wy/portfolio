@@ -611,9 +611,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 	.project-item {
 		max-width: 70ch;
 		padding: 1em;
-		margin-bottom: 1em;
+		margin-bottom: 4em;
 		min-height: 300px;
 		background-color: white;
+		box-shadow: -1em -1em #4b5e74;
+		transition: 0.5s;
 	}
 
 	.project-item:hover {
@@ -634,6 +636,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
 		width: 300px;
 		cursor: pointer;
 		transition: 0.5s;
+	}
+
+	.project-item-desc > h3 > span {
+		color: white;
+		padding: 0.25em;
+		background-color: #4b5e74;
 	}
 
 	.project-item-desc:hover {
@@ -691,7 +699,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 	.experience-item-container {
 		display: flex;
-		flex-direction: column;
+		/* flex-direction: column; */
+		flex-wrap: wrap;
 		align-items: center;
 	}
 
@@ -702,10 +711,31 @@ Note: Beware of modifying this element as it can break the animations - you shou
 		line-height: 1;
 		padding: 0.5em;
 		margin: 1em;
-		height: 300px;
-		width: 300px;
+		height: 400px;
+		width: 400px;
 		cursor: pointer;
 		transition: 0.5s;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		justify-content: space-between;
+		transition: 0.5s;
+	}
+
+	.experience-item-title:hover {
+		transition: 0.5s;
+	}
+
+	.experience-item-title > h3 {
+		margin-bottom: 0;
+	}
+
+	.experience-item-title > h4 {
+		margin-top: 0.3em;
+	}
+	.experience-item-title > img {
+		height: 100px;
+		width: 200px;
 	}
 
 	.experience-item-title:hover {
@@ -718,6 +748,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 		padding: 1em;
 		transition: 0.5s;
 		margin: 1em;
+		box-shadow: -1em -1em #4b5e74;
 	}
 
 	.experience-item-list:hover {
@@ -775,8 +806,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
 		width: 60ch;
 		max-width: 60ch;
 		padding: 1em;
-		margin-bottom: 1em;
+		margin-bottom: 4em;
 		min-height: 300px;
+		box-shadow: -1em -1em #4b5e74;
+		transition: 0.5s;
 	}
 
 	.skills-list:hover {

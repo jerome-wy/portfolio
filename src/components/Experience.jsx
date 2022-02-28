@@ -6,6 +6,9 @@ export default function Experience() {
 	const [experience2, toggleExperience2] = useState(false);
 	const [experience3, toggleExperience3] = useState(false);
 	const [experience4, toggleExperience4] = useState(false);
+	const [experience5, toggleExperience5] = useState(false);
+	const [experience6, toggleExperience6] = useState(false);
+	const [experience7, toggleExperience7] = useState(false);
 
 	return (
 		<div className='Experience' id='experience'>
@@ -16,8 +19,11 @@ export default function Experience() {
 					<div
 						className='experience-item-title'
 						onClick={() => toggleExperience1(!experience1)}>
+						<img src='https://i.imgur.com/fpM6doD.png' />
+
 						<h2>Software Engineering Immersive Fellow</h2>
 						<h3>General Assembly</h3>
+						<h4>2021 to 2022</h4>
 					</div>
 				</div>
 
@@ -32,8 +38,11 @@ export default function Experience() {
 							animationOutDelay={2}
 							isVisible={true}>
 							<div className='experience-item-title'>
+								<img src='https://i.imgur.com/OzCjP78.png' />
+
 								<h2>Project Manager</h2>
 								<h3>BD (Becton Dickinson and Company)</h3>
+								<h4>2018 to 2021</h4>
 							</div>
 						</Animated>
 					) : (
@@ -46,6 +55,7 @@ export default function Experience() {
 							<div className='experience-item-list'>
 								<h2>Project Manager</h2>
 								<h3>BD (Becton Dickinson and Company)</h3>
+
 								<Animated
 									animationIn='slideInUp'
 									animationOut='fadeOut'
@@ -113,8 +123,11 @@ export default function Experience() {
 							animationOutDelay={2}
 							isVisible={true}>
 							<div className='experience-item-title'>
+								<img src='https://i.imgur.com/OzCjP78.png' />
+
 								<h2>Product Implementation Analyst</h2>
 								<h3>BD (Becton Dickinson and Company)</h3>
+								<h4>2016 to 2018</h4>
 							</div>
 						</Animated>
 					) : (
@@ -186,8 +199,11 @@ export default function Experience() {
 							animationOutDelay={2}
 							isVisible={true}>
 							<div className='experience-item-title'>
+								<img src='https://i.imgur.com/QwnXDBw.png' />
+
 								<h2>Clinical Systems Analyst</h2>
 								<h3>Keck Medical Center of USC</h3>
+								<h4>2013 to 2016</h4>
 							</div>
 						</Animated>
 					) : (
@@ -270,6 +286,142 @@ export default function Experience() {
 											with BCMA policies and procedures, Charge and credit
 											miscellaneous patient charges, update locations and insure
 											cross platform interface connectivity with BD products
+										</li>
+									</ul>
+								</Animated>
+							</div>
+						</Animated>
+					)}
+				</div>
+
+				<div
+					className='experience-item'
+					onClick={() => toggleExperience5(!experience5)}>
+					{!experience5 ? (
+						<Animated
+							animationIn='slideInDown'
+							animationOut='fadeOut'
+							animationInDelay={1}
+							animationOutDelay={2}
+							isVisible={true}>
+							<div className='experience-item-title'>
+								<img src='https://i.imgur.com/X7z3b54.png' />
+
+								<h2>Pharmacy Technician</h2>
+								<h3>Children's Hospital Los Angeles</h3>
+								<h4>2011 to current</h4>
+							</div>
+						</Animated>
+					) : (
+						<Animated
+							animationIn='slideInDown'
+							animationOut='fadeOut'
+							animationInDelay={1}
+							animationoutDelay={2}
+							isVisible={true}>
+							<div className='experience-item-list'>
+								<h2>Pharmacy Technician</h2>
+								<h3>Children's Hospital Los Angeles</h3>
+
+								<Animated
+									animationIn='slideInUp'
+									animationOut='fadeOut'
+									animationInDelay={5}
+									animationOutDelay={6}
+									isVisible={true}>
+									<ul>
+										<li>
+											Provide unit-based service to inpatient units (Pediatric
+											ICU, Neonatal ICU, Cardiothoracic ICU, Bone Marrow
+											Transplant, and Med Surg)
+										</li>
+										<li>
+											Utilize BD Pyxis MedStation 4000 Systems to properly
+											track, document, and manage medication inventory
+										</li>
+										<li>
+											Proficiency in BD Pyxis CIISafe: appropriately use the
+											CIISafe software to maintain controlled substance
+											inventories within the CIISafe and Pyxis MedStation 4000
+											systems
+										</li>
+										<li>
+											Individual Patient-specific Sterile and Non-Sterile
+											Medication Preparation to reduce medication errors and
+											provide precise doses
+										</li>
+										<li>
+											Apply applicable pharmacy practices when using Pharmacy
+											Information Systems and Software: Cerner Millennium +
+											MILT4
+										</li>
+									</ul>
+								</Animated>
+							</div>
+						</Animated>
+					)}
+				</div>
+
+				<div
+					className='experience-item'
+					onClick={() => toggleExperience6(!experience6)}>
+					{!experience6 ? (
+						<Animated
+							animationIn='slideInDown'
+							animationOut='fadeOut'
+							animationInDelay={1}
+							animationOutDelay={2}
+							isVisible={true}>
+							<div className='experience-item-title'>
+								<img src='https://i.imgur.com/zTeKKEl.png' />
+
+								<h2>Pharmacy Technician</h2>
+								<h3>University of California Irvine Medical Center</h3>
+								<h4>2014 to 2015</h4>
+							</div>
+						</Animated>
+					) : (
+						<Animated
+							animationIn='slideInDown'
+							animationOut='fadeOut'
+							animationInDelay={1}
+							animationoutDelay={2}
+							isVisible={true}>
+							<div className='experience-item-list'>
+								<h2>Pharmacy Technician</h2>
+								<h3>University of California Irvine Medical Center</h3>
+
+								<Animated
+									animationIn='slideInUp'
+									animationOut='fadeOut'
+									animationInDelay={5}
+									animationOutDelay={6}
+									isVisible={true}>
+									<ul>
+										<li>
+											Provide unit-based service to inpatient units (Pediatric
+											ICU, Neonatal ICU, Cardiothoracic ICU, Bone Marrow
+											Transplant, and Med Surg)
+										</li>
+										<li>
+											Utilize BD Pyxis MedStation 4000 Systems to properly
+											track, document, and manage medication inventory
+										</li>
+										<li>
+											Proficiency in BD Pyxis CIISafe: appropriately use the
+											CIISafe software to maintain controlled substance
+											inventories within the CIISafe and Pyxis MedStation 4000
+											systems
+										</li>
+										<li>
+											Individual Patient-specific Sterile and Non-Sterile
+											Medication Preparation to reduce medication errors and
+											provide precise doses
+										</li>
+										<li>
+											Apply applicable pharmacy practices when using Pharmacy
+											Information Systems and Software: Cerner Millennium +
+											MILT4
 										</li>
 									</ul>
 								</Animated>

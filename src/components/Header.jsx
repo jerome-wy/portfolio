@@ -37,6 +37,12 @@ export default function Header() {
 					</Link>
 				</li>
 
+				<li>
+					<Link to='contact' spy={true} smooth={true} className='menu-item'>
+						contact
+					</Link>
+				</li>
+
 				<br />
 
 				<button className='resume-btn'>

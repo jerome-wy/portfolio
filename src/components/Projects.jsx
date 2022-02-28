@@ -27,6 +27,10 @@ export default function Projects() {
 						isVisible={true}>
 						<div className='project-item-desc'>
 							<h2>nerdfeed</h2>
+							<h3>MongoDB, Express, React, Node</h3>
+							<h3>
+								<span>full stack</span>
+							</h3>
 						</div>
 					</Animated>
 				) : (
@@ -38,7 +42,7 @@ export default function Projects() {
 						isVisible={true}>
 						<div className='project-item'>
 							<h2>nerdfeed</h2>
-							<h3>MERN Full Stack</h3>
+							<h3>MongoDB, Express, React, Node</h3>
 							<h4>
 								<a
 									href='https://www.github.com/jerome-wy/NerdFeed/'
@@ -100,6 +104,10 @@ export default function Projects() {
 						isVisible={true}>
 						<div className='project-item-desc'>
 							<h2>anchr</h2>
+							<h3>MongoDB, Express, React, Node</h3>{' '}
+							<h3>
+								<span>full stack</span>
+							</h3>
 						</div>
 					</Animated>
 				) : (
@@ -155,7 +163,6 @@ export default function Projects() {
 									</li>
 								</ul>
 								<center>
-									{' '}
 									<img
 										src='https://camo.githubusercontent.com/9bff2d17f4d8be10c0d60513d30f240441f2d741724b6c052d0384229d88a138/68747470733a2f2f692e696d6775722e636f6d2f4b6c596d666e532e706e67'
 										alt='screenshot-1'
@@ -187,6 +194,10 @@ export default function Projects() {
 						isVisible={true}>
 						<div className='project-item-desc'>
 							<h2>calendr</h2>
+							<h3>PostgreSQL, Python, Django, Vue</h3>{' '}
+							<h3>
+								<span>full stack</span>
+							</h3>
 						</div>
 					</Animated>
 				) : (
@@ -261,6 +272,10 @@ export default function Projects() {
 							className='project-item-desc'
 							onClick={() => toggleProjects4(!projects4)}>
 							<h2>procrastigmr</h2>
+							<h3>PostgreSQL, Python, Django, React</h3>{' '}
+							<h3>
+								<span>full stack</span>
+							</h3>
 						</div>
 					</Animated>
 				) : (
