@@ -406,7 +406,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 	}
 
 	.menu-logo {
-		height: 150px;
+		height: 100px;
 		width: 150px;
 	}
 
@@ -457,7 +457,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 		text-align: center;
 	}
 
-	.logo-title-container > h1 {
+	.animated.fadeInUpBig > h1 {
 		/* border-top: solid 1px lightgray; */
 		background-color: white;
 		padding-top: 0.5em;

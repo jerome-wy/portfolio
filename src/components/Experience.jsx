@@ -20,7 +20,7 @@ export default function Experience() {
 						<h3>General Assembly</h3>
 					</div>
 				</div>
-				
+
 				<div
 					className='experience-item'
 					onClick={() => toggleExperience2(!experience2)}>
@@ -54,8 +54,8 @@ export default function Experience() {
 									isVisible={true}>
 									<ul>
 										<li>
-											Management and oversight of assigned BD Pyxis Enterprise
-											Server Software Upgrade projects
+											Managed and oversaw of assigned BD Pyxis Enterprise Server
+											Software Upgrade projects
 										</li>
 
 										<li>

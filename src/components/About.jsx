@@ -31,10 +31,6 @@ export default function About() {
 				<p>
 					This portfolio is a much prettier and interactive resume. Let me know
 					if you have any questions!
-					<br />
-					<center>
-						<img src='https://i.imgur.com/SUG9IYs.png' alt='logo' />
-					</center>
 				</p>
 			</content>
 		</div>
