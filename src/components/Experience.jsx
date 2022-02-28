@@ -40,9 +40,13 @@ export default function Experience() {
 								<img src='https://i.imgur.com/OzCjP78.png' />
 
 								<h2>
-									Project Manager <br /> // software upgrades
+									Project Manager <br />
+									software upgrades
 								</h2>
-								<h3>BD (Becton Dickinson and Company)</h3>
+								<h3>
+									BD (Becton Dickinson <br />
+									and Company)
+								</h3>
 								<h4>2018 to 2021</h4>
 							</div>
 						</Animated>
@@ -55,7 +59,10 @@ export default function Experience() {
 							isVisible={true}>
 							<div className='experience-item-list'>
 								<h2>Project Manager</h2>
-								<h3>BD (Becton Dickinson and Company)</h3>
+								<h3>
+									BD (Becton Dickinson <br />
+									and Company)
+								</h3>
 
 								<Animated
 									animationIn='slideInUp'
@@ -400,29 +407,24 @@ export default function Experience() {
 									isVisible={true}>
 									<ul>
 										<li>
-											Provide unit-based service to inpatient units (Pediatric
-											ICU, Neonatal ICU, Cardiothoracic ICU, Bone Marrow
-											Transplant, and Med Surg)
+											SwissLog BoxPicker – Remove medications using automated
+											robot as needed per patient needs; utilize BoxPicker for
+											accurate Pyxis MedStation medication removal{' '}
 										</li>
 										<li>
-											Utilize BD Pyxis MedStation 4000 Systems to properly
-											track, document, and manage medication inventory
+											Utilize IMS electronic inventory – ensure all medications
+											removed from shelves are properly and accurately scanned
+											before dispensing
 										</li>
 										<li>
-											Proficiency in BD Pyxis CIISafe: appropriately use the
-											CIISafe software to maintain controlled substance
-											inventories within the CIISafe and Pyxis MedStation 4000
-											systems
+											Pre-package tablets and oral solutions; create labels
+											using MILT3, create daily log of medications being
+											unit-dosed.
 										</li>
+
 										<li>
-											Individual Patient-specific Sterile and Non-Sterile
-											Medication Preparation to reduce medication errors and
-											provide precise doses
-										</li>
-										<li>
-											Apply applicable pharmacy practices when using Pharmacy
-											Information Systems and Software: Cerner Millennium +
-											MILT4
+											BD Pyxis MedStation 4000 + BD Pyxis CIISafe – Refill,
+											inventory, repair, manage and troubleshoot
 										</li>
 									</ul>
 								</Animated>
