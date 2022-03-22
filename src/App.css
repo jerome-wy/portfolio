@@ -447,10 +447,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 	.experience-item-list {
 		max-width: 60ch;
+		height: 500px;
+		width: 350px;
 		padding: 1em;
 		transition: 0.5s;
 		margin: 1em;
 		box-shadow: -1em -1em #3a566d;
+		overflow-y: scroll;
 	}
 
 	.experience-item-list:hover {
