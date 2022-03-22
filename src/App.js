@@ -17,7 +17,6 @@ function App() {
 			<Header pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
 
 			<div id='page-wrap'>
-				<Jinger />
 				<Home />
 				<About />
 				<Projects />
