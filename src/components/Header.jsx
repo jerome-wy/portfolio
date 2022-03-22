@@ -49,7 +49,7 @@ export default function Header() {
 					<a
 						href='https://docs.google.com/document/d/1hitkqyvyU74KK7S1uMuS0Ca83f6HYGF-/edit?usp=sharing&ouid=105964764512350836637&rtpof=true&sd=true'
 						target='_blank'
-						alt='resume'>
+						alt='Jerome Wy Resume'>
 						resume
 					</a>
 				</button>
