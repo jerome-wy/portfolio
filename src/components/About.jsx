@@ -4,7 +4,7 @@ export default function About() {
 	return (
 		<div className='About' id='about'>
 			<img
-				src='https://media-exp1.licdn.com/dms/image/C4D03AQGTizQ-DzBoUA/profile-displayphoto-shrink_800_800/0/1638998388995?e=1651104000&v=beta&t=yV2LXL51nLrsMyZTwG23uyTdAv7uEjEvSpfJNO5F6Zc'
+				src='https://media-exp1.licdn.com/dms/image/C4D03AQGTizQ-DzBoUA/profile-displayphoto-shrink_800_800/0/1638998388995?e=1658361600&v=beta&t=JlkXPKbi7ppCvh5_gJKsyiV_ywUU0_aOW95GE6Abk0E'
 				alt='profile'
 			/>
 			<content>
